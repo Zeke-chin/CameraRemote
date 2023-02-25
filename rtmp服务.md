@@ -6,6 +6,7 @@
 docker pull jun3/rtmp
 docker run --name rtmp -p 1935:1935 -p 8035:80 -d -it jun3/rtmp
 ```
+服务器推流状态后台 https://IP:8035/stat
 
 # rtmp 推流
 
